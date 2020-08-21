@@ -99,18 +99,22 @@
                 <td><%# Eval("doituonguutien") %></td>
                 <td><%# Eval("tongtien") %></td>
                 <td>
-                    <asp:LinkButton ID="data1" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile"  Text='<%# Eval("phieudangkyduthi") %>' OnClientClick="return GetId()" /></td>
-                <td><%# Eval("donxinduthi") %></td>
-                <td><%# Eval("bangtotnghiep") %></td>
-                <td><%# Eval("bangdiemdaihoc") %></td>
-                <td><%# Eval("soyeulilich") %></td>
-                <td><%# Eval("giaysuckhoe") %></td>
-                <td><%# Eval("avatar") %></td>
-                <td><%# Eval("giayuutien") %></td>
-                <td><%# Eval("giaymienthingoaingu") %></td>
-                <td><%# Eval("hopdonglaodong") %></td>
-                <td><%# Eval("congvanduthi") %></td>
-                <td><%# Eval("giaynoptien") %></td>
+                    <asp:LinkButton ID="data1" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile"  Text='<%# Eval("phieudangkyduthi") %>' OnClientClick="return GetId()" />
+                <td>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Donxinduthi"  Text='<%# Eval("donxinduthi") %>' OnClientClick="return GetId()" />
+                </td>
+                <td>
+                    <asp:LinkButton ID="LinkButton2" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Bangtotnghiep"  Text='<%# Eval("bangtotnghiep") %>' OnClientClick="return GetId()" />
+                </td>
+                <td><asp:LinkButton ID="LinkButton3" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Bangdiem"  Text='<%# Eval("bangdiemdaihoc") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton4" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Soyeulilich"  Text='<%# Eval("soyeulilich") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton5" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Giaysuckhoe"  Text='<%# Eval("giaysuckhoe") %>' OnClientClick="return GetId()" /></td>         
+                <td><asp:LinkButton ID="LinkButton6" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Avavar"  Text='<%# Eval("avatar") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton7" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Giayuutien"  Text='<%# Eval("giayuutien") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton8" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Giaymienngoaingu"  Text='<%# Eval("giaymienthingoaingu") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton9" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Hopdonglaodong"  Text='<%# Eval("hopdonglaodong") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton10" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Congvanduthi"  Text='<%# Eval("congvanduthi") %>' OnClientClick="return GetId()" /></td>
+                <td><asp:LinkButton ID="LinkButton11" runat="server" CommandName="data1" CommandArgument='<%# Bind("Id") %>' OnClick="openfile_Giaynoptien"  Text='<%# Eval("giaynoptien") %>' OnClientClick="return GetId()" /></td>
                 <td><a href="<%# BuildUrl("Register","Id="+ Eval("Id")) %>">
                     <img src="<%= ControlPath %>Images/edit.png" width="20px" /></a>
                 </td>

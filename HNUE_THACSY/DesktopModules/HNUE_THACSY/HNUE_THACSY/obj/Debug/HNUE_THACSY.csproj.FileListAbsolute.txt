@@ -5,3 +5,4 @@ D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\obj\Debug\HNUE_THACSY.cspr
 D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\obj\Debug\HNUE_THACSY.csproj.CopyComplete
 D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\obj\Debug\HNUE_THACSY.dll
 D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\obj\Debug\HNUE_THACSY.pdb
+D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\obj\Debug\HNUE_THACSY.csprojAssemblyReference.cache
