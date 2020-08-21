@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HNUE_THACSY" Class="ThacSyDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-0V2N8HE;Initial Catalog=HNUE_THACSY;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SiteSqlServer" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Nganh" Member="Nganhs">
+    <Type Name="Nganh">
+      <Column Name="Idnganh" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tennganh" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tuyensinh" Member="Tuyensinhs">
+    <Type Name="Tuyensinh">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="hoten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="cmnd" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="noisinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="sdt" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="nganh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachilienhe" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="mienthingoaingu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="doituonguutien" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tongtien" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="phieudangkyduthi" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="donxinduthi" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="bangtotnghiep" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="bangdiemdaihoc" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="soyeulilich" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="giaysuckhoe" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="avatar" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="giayuutien" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="giaymienthingoaingu" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="hopdonglaodong" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="congvanduthi" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+      <Column Name="giaynoptien" Type="System.String" DbType="NChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tinh" Member="Tinhs">
+    <Type Name="Tinh">
+      <Column Name="Idtinh" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tentinh" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

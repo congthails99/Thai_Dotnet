@@ -1,0 +1,595 @@
+2020-08-13 10:21:09.501+07:00 [DESKTOP-0V2N8HE][D:4][T:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+
+See http://go.microsoft.com/fwlink/?LinkID=314055 for more information. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 50334
+	Referer: http://localhost/Home/moduleId/380/control/Register
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+	ViewState: cZVw7/FlnJFc4nUMYN/Up8vUIYy/eZbIxR2fY8b9W10JNgYC+ciSutXwUtSQ6RrDEqe/0cnDVzfUrLnS9wQe8FMNb1eO26JXhoZ7FJHDn6/qDNU4Ikpb88EW/xXojkCIhQ7hwswo6BYTpetD38Ov91n+8vo=
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 10:21:09.532+07:00 [DESKTOP-0V2N8HE][D:4][T:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Web.HttpException (0x80004005): Validation of viewstate MAC failed. If this application is hosted by a Web Farm or cluster, ensure that <machineKey> configuration specifies the same validationKey and validation algorithm. AutoGenerate cannot be used in a cluster.
+
+See http://go.microsoft.com/fwlink/?LinkID=314055 for more information. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: ::1
+	Port: 50334
+	Referer: http://localhost/Home/moduleId/380/control/Register
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36
+	ViewState: cZVw7/FlnJFc4nUMYN/Up8vUIYy/eZbIxR2fY8b9W10JNgYC+ciSutXwUtSQ6RrDEqe/0cnDVzfUrLnS9wQe8FMNb1eO26JXhoZ7FJHDn6/qDNU4Ikpb88EW/xXojkCIhQ7hwswo6BYTpetD38Ov91n+8vo=
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 10:23:37.483+07:00 [DESKTOP-0V2N8HE][D:4][T:12][ERROR] DotNetNuke.Data.PetaPoco.PetaPocoHelper - [3] Error executing SQL: DECLARE @Output TABLE(Data NVARCHAR(255), Depth INT)
+INSERT INTO @Output EXEC sys.xp_dirtree 'D:\HNUE_THACSY'
+SELECT @@ROWCOUNT
+
+Parameter '@Output' specified but none of the passed arguments have a property with this name (in 'DECLARE @Output TABLE(Data NVARCHAR(255), Depth INT)
+INSERT INTO @Output EXEC sys.xp_dirtree 'D:\HNUE_THACSY'
+SELECT @@ROWCOUNT
+')
+2020-08-13 10:23:37.490+07:00 [DESKTOP-0V2N8HE][D:4][T:12][ERROR] DotNetNuke.Data.SqlDataProvider - System.ArgumentException: Parameter '@Output' specified but none of the passed arguments have a property with this name (in 'DECLARE @Output TABLE(Data NVARCHAR(255), Depth INT)
+INSERT INTO @Output EXEC sys.xp_dirtree 'D:\HNUE_THACSY'
+SELECT @@ROWCOUNT
+')
+   at PetaPoco.Internal.ParametersHelper.<>c__DisplayClass5_0.<ProcessQueryParams>b__0(Match m)
+   at System.Text.RegularExpressions.RegexReplacement.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at PetaPoco.Database.CreateCommand(IDbConnection connection, CommandType commandType, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoExt.ExecuteReader(Database database, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteReader(String connectionString, CommandType type, Int32 timeoutSec, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteSQLInternal(String connectionString, String sql, Int32 timeoutSec, String& errorMessage)
+2020-08-13 10:23:37.538+07:00 [DESKTOP-0V2N8HE][D:4][T:12][ERROR] DotNetNuke.Data.PetaPoco.PetaPocoHelper - [3] Error executing SQL: DECLARE @OS VARCHAR(1000)
+EXECUTE xp_regread 'HKEY_LOCAL_MACHINE', 'SOFTWARE\Microsoft\Windows NT\CurrentVersion', 'ProductName', @OS OUTPUT
+SELECT 1
+Parameter '@OS' specified but none of the passed arguments have a property with this name (in 'DECLARE @OS VARCHAR(1000)
+EXECUTE xp_regread 'HKEY_LOCAL_MACHINE', 'SOFTWARE\Microsoft\Windows NT\CurrentVersion', 'ProductName', @OS OUTPUT
+SELECT 1')
+2020-08-13 10:23:37.546+07:00 [DESKTOP-0V2N8HE][D:4][T:12][ERROR] DotNetNuke.Data.SqlDataProvider - System.ArgumentException: Parameter '@OS' specified but none of the passed arguments have a property with this name (in 'DECLARE @OS VARCHAR(1000)
+EXECUTE xp_regread 'HKEY_LOCAL_MACHINE', 'SOFTWARE\Microsoft\Windows NT\CurrentVersion', 'ProductName', @OS OUTPUT
+SELECT 1')
+   at PetaPoco.Internal.ParametersHelper.<>c__DisplayClass5_0.<ProcessQueryParams>b__0(Match m)
+   at System.Text.RegularExpressions.RegexReplacement.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at PetaPoco.Database.CreateCommand(IDbConnection connection, CommandType commandType, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoExt.ExecuteReader(Database database, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteReader(String connectionString, CommandType type, Int32 timeoutSec, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteSQLInternal(String connectionString, String sql, Int32 timeoutSec, String& errorMessage)
+2020-08-13 10:26:06.177+07:00 [DESKTOP-0V2N8HE][D:5][T:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2020-08-13 10:26:06.228+07:00 [DESKTOP-0V2N8HE][D:5][T:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Tracing.ITraceWriterExtensions.<TraceBeginEndAsyncCore>d__18`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.AuthorizationFilterAttribute.<ExecuteAuthorizationFilterAsyncCore>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+2020-08-13 10:26:21.300+07:00 [DESKTOP-0V2N8HE][D:5][T:11][ERROR] DotNetNuke.Data.PetaPoco.PetaPocoHelper - [4] Error executing SQL: ;Exec dbo.AddDesktopModule @0, @1, @2, @3, @4, @5, @6, @7, @8, @9, @10, @11, @12, @13, @14, @15, @16, @17
+Violation of UNIQUE KEY constraint 'IX_DesktopModules_ModuleName'. Cannot insert duplicate key in object 'dbo.DesktopModules'. The duplicate key value is (view).
+The statement has been terminated.
+2020-08-13 10:26:21.321+07:00 [DESKTOP-0V2N8HE][D:5][T:11][ERROR] DotNetNuke.Services.Installer.Log.Logger - ExceptionSystem.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'IX_DesktopModules_ModuleName'. Cannot insert duplicate key in object 'dbo.DesktopModules'. The duplicate key value is (view).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalarInternal[T](CommandType commandType, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteScalar[T](String connectionString, CommandType type, Int32 timeoutSec, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteScalar[T](String procedureName, Object[] commandParameters)
+   at DotNetNuke.Entities.Modules.DesktopModuleController.SaveDesktopModule(DesktopModuleInfo desktopModule, Boolean saveChildren, Boolean clearCache, Boolean saveTerms)
+   at DotNetNuke.Services.Installer.Installers.ModuleInstaller.Install()
+ClientConnectionId:91b46ee9-d81e-4bf1-bc34-87ab15065a98
+Error Number:2627,State:1,Class:14
+2020-08-13 10:26:21.330+07:00 [DESKTOP-0V2N8HE][D:5][T:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Data.SqlClient.SqlException (0x80131904): Violation of UNIQUE KEY constraint 'IX_DesktopModules_ModuleName'. Cannot insert duplicate key in object 'dbo.DesktopModules'. The duplicate key value is (view).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at PetaPoco.Database.ExecuteScalarInternal[T](CommandType commandType, String sql, Object[] args)
+   at DotNetNuke.Data.PetaPoco.PetaPocoHelper.ExecuteScalar[T](String connectionString, CommandType type, Int32 timeoutSec, String sql, Object[] args)
+   at DotNetNuke.Data.SqlDataProvider.ExecuteScalar[T](String procedureName, Object[] commandParameters)
+   at DotNetNuke.Entities.Modules.DesktopModuleController.SaveDesktopModule(DesktopModuleInfo desktopModule, Boolean saveChildren, Boolean clearCache, Boolean saveTerms)
+   at DotNetNuke.Services.Installer.Installers.ModuleInstaller.Install()
+ClientConnectionId:91b46ee9-d81e-4bf1-bc34-87ab15065a98
+Error Number:2627,State:1,Class:14
+2020-08-13 10:26:21.344+07:00 [DESKTOP-0V2N8HE][D:5][T:11][ERROR] DotNetNuke.Services.Installer.Log.Logger - Installation Failed - Module
+2020-08-13 20:03:35.998+07:00 [DESKTOP-0V2N8HE][D:3][T:53][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:03:36.243+07:00 [DESKTOP-0V2N8HE][D:3][T:53][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`2[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-13 20:05:25.011+07:00 [DESKTOP-0V2N8HE][D:4][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:05:25.167+07:00 [DESKTOP-0V2N8HE][D:4][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-13 20:06:32.529+07:00 [DESKTOP-0V2N8HE][D:4][T:65][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:06:32.558+07:00 [DESKTOP-0V2N8HE][D:4][T:65][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-13 20:08:32.592+07:00 [DESKTOP-0V2N8HE][D:5][T:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:08:32.753+07:00 [DESKTOP-0V2N8HE][D:5][T:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-13 20:09:50.555+07:00 [DESKTOP-0V2N8HE][D:5][T:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 21
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:09:50.587+07:00 [DESKTOP-0V2N8HE][D:5][T:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 21
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:13:01.548+07:00 [DESKTOP-0V2N8HE][D:6][T:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 20:13:01.690+07:00 [DESKTOP-0V2N8HE][D:6][T:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'. ---> System.Web.HttpException: DataBinding: '<>f__AnonymousType0`1[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]' does not contain a property with the name 'tenganh'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   at System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   at System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   at System.Web.UI.WebControls.ListControl.PerformSelect()
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 22
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-13 22:56:32.600+07:00 [DESKTOP-0V2N8HE][D:19][T:49][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:56:34.418+07:00 [DESKTOP-0V2N8HE][D:19][T:49][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:56:46.170+07:00 [DESKTOP-0V2N8HE][D:19][T:76][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:56:46.203+07:00 [DESKTOP-0V2N8HE][D:19][T:76][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:57:03.466+07:00 [DESKTOP-0V2N8HE][D:19][T:61][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:57:03.517+07:00 [DESKTOP-0V2N8HE][D:19][T:61][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:57:57.388+07:00 [DESKTOP-0V2N8HE][D:19][T:59][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:57:57.428+07:00 [DESKTOP-0V2N8HE][D:19][T:59][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:59:18.410+07:00 [DESKTOP-0V2N8HE][D:19][T:89][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 22:59:18.465+07:00 [DESKTOP-0V2N8HE][D:19][T:89][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 48
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:07:46.564+07:00 [DESKTOP-0V2N8HE][D:21][T:65][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 52
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:07:46.693+07:00 [DESKTOP-0V2N8HE][D:21][T:65][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 52
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:15:36.551+07:00 [DESKTOP-0V2N8HE][D:22][T:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 56
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:15:36.684+07:00 [DESKTOP-0V2N8HE][D:22][T:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 56
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:16:51.319+07:00 [DESKTOP-0V2N8HE][D:22][T:66][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 56
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-13 23:16:51.386+07:00 [DESKTOP-0V2N8HE][D:22][T:66][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 56
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

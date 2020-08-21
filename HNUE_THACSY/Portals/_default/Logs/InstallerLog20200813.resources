@@ -1,0 +1,1 @@
+08/13/2020 03:28:24 [INFO] DotNetNuke.Services.Installer.XmlMerge Start RemoveNode:<assemblyIdentity name="CNVelocity" publicKeyToken="407dd0808d44fbdc" xmlns="urn:schemas-microsoft-com:asm.v1" /><bindingRedirect oldVersion="0.0.0.0-32767.32767.32767.32767" newVersion="1.1.0.0" xmlns="urn:schemas-microsoft-com:asm.v1" />

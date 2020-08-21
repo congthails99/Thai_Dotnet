@@ -1,0 +1,17 @@
+.nav.nav-tabs {
+	margin: 0;
+}
+.nav-tabs li {
+	padding: 10px;
+	border-left: 1px solid #d0d0d0;
+	border-top: 1px solid #d0d0d0;
+	background: white;
+	margin: 0 5px;
+	border-right: 1px solid #d0d0d0;
+}
+.nav-tabs li.active {
+	margin-bottom: -1px !important;
+}
+.btn-primary:visited {
+	color: white;
+}

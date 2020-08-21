@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-md">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="fa fa-bars"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+		[*>NODE-TOP]
+    </ul>
+  </div>
+</nav>
+[>NODE-TOP]
+    <li class="nav-item [?NODE]dropdown [/?][?SELECTED]active[/?]">
+		[?ENABLED]
+			<a href="[=URL]" class="nav-link [?NODE]dropdown-toggle[/?]" [?NODE]role="button" data-toggle="dropdown"[/?]>[=TEXT]</a>
+		[?ELSE]
+			<a href="#" class="nav-link [?NODE]dropdown-toggle[/?]" [?NODE]role="button" data-toggle="dropdown"[/?]>[=TEXT]</a>
+		[/?]
+		[?NODE]
+			<div class="dropdown-menu">
+				[*>NODE]
+			</div>
+		[/?]
+    </li>
+[/>]
+[>NODE]
+    <div class="dropdown-item [?NODE]dropdown [/?][?SELECTED]active[/?]">
+		[?ENABLED]
+			<a href="[=URL]" class="dropdown-link [?NODE]dropdown-toggle[/?]">[=TEXT]</a>
+		[?ELSE]
+			<a href="#" class="dropdown-link [?NODE]dropdown-toggle[/?]">[=TEXT]</a>
+		[/?]
+		[?NODE]
+			<div class="dropdown-sub-menu">
+				[*>NODE-SUB]
+			</div>
+		[/?]
+    </div>
+[/>]
+
+[>NODE-SUB]
+    <div class="dropdown-sub-item[?SELECTED] active[/?]">
+		[?ENABLED]
+			<a href="[=URL]" class="dropdown-sub-link">[=TEXT]</a>
+		[?ELSE]
+			<a href="#" class="dropdown-sub-link">[=TEXT]</a>
+		[/?]
+    </div>
+[/>]

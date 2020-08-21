@@ -1,0 +1,108 @@
+﻿@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .bannershadow {
+        height: 85px !important;
+    }
+
+    #navbar {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+    .bannershadow {
+        height: 105px !important;
+    }
+
+    #navbar {
+        margin-top: 5px !important;
+    }
+
+    .logo {
+        margin-top: -15px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 691px) {
+    .bannershadow {
+        height: 80px !important;
+    }
+
+    .logo {
+        height: 85px;
+        margin-top: -25px;
+    }
+
+    #thptcontact {
+        text-align: center !important;
+    }
+}
+
+
+@media screen and (max-width: 690px) and (min-width: 376px) {
+    .style-15 p {
+        height: 100% !important;
+        transform: scale(1) !important;
+    }
+
+        .style-15 p a {
+            min-height: 40px !important;
+        }
+
+            .style-15 p a span {
+                font-size: 13px !important;
+            }
+
+    .sp-slide {
+        margin-left: -100px !important;
+    }
+
+    .bannershadow {
+        height: 95px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .logo {
+        margin: 0 auto;
+        display: block;
+        height: 85px;
+        margin-top: 0 !important;
+    }
+
+    .bannershadow {
+        height: 105px !important;
+    }
+
+    .style-15 .img {
+        height: 100% !important;
+        left: auto !important;
+        transform: skewX(0) !important;
+        width: auto !important;
+    }
+
+    .style-15 .skew {
+        transform: skewX(0) !important;
+    }
+
+    .sp-slide {
+        width: 96% !important;
+    }
+    .loginGroup{
+        display: none;
+    }
+    .search{
+        margin: 10px 0 !important;
+    }
+    .maincontent,.maincontent-1,.maincontent-2 {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .style-7 .date{
+        display: none !important;
+    }
+    .sp-layer {
+		padding: 0 7% !important;
+	}
+}

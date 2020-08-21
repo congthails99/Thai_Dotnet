@@ -1,0 +1,1072 @@
+2020-08-21 08:15:47.625+07:00 [DESKTOP-0V2N8HE][D:3][T:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 164
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:15:47.666+07:00 [DESKTOP-0V2N8HE][D:3][T:13][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 164
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:16:31.692+07:00 [DESKTOP-0V2N8HE][D:3][T:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 164
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:16:31.700+07:00 [DESKTOP-0V2N8HE][D:3][T:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 164
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:23:14.103+07:00 [DESKTOP-0V2N8HE][D:4][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 198
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2516eceb-da94-47cf-974b-adc010446a2f
+Error Number:8152,State:10,Class:16
+2020-08-21 08:23:14.150+07:00 [DESKTOP-0V2N8HE][D:4][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 198
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2516eceb-da94-47cf-974b-adc010446a2f
+Error Number:8152,State:10,Class:16
+2020-08-21 08:23:48.594+07:00 [DESKTOP-0V2N8HE][D:4][T:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 198
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2516eceb-da94-47cf-974b-adc010446a2f
+Error Number:8152,State:10,Class:16
+2020-08-21 08:23:48.602+07:00 [DESKTOP-0V2N8HE][D:4][T:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 198
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:2516eceb-da94-47cf-974b-adc010446a2f
+Error Number:8152,State:10,Class:16
+2020-08-21 08:27:38.410+07:00 [DESKTOP-0V2N8HE][D:6][T:44][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 163
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:27:38.452+07:00 [DESKTOP-0V2N8HE][D:6][T:44][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 163
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:27:49.143+07:00 [DESKTOP-0V2N8HE][D:6][T:52][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 163
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:27:49.148+07:00 [DESKTOP-0V2N8HE][D:6][T:52][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 163
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:36:56.177+07:00 [DESKTOP-0V2N8HE][D:9][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 172
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:36:56.214+07:00 [DESKTOP-0V2N8HE][D:9][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.UnauthorizedAccessException: Access to the path '123                 ' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 172
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:40:54.468+07:00 [DESKTOP-0V2N8HE][D:11][T:37][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \dang ky su dung.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 174
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:40:54.511+07:00 [DESKTOP-0V2N8HE][D:11][T:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123                 \dang ky su dung.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 174
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:56:32.402+07:00 [DESKTOP-0V2N8HE][D:20][T:34][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 35
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:56:32.443+07:00 [DESKTOP-0V2N8HE][D:20][T:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 35
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:56:38.155+07:00 [DESKTOP-0V2N8HE][D:20][T:64][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 35
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 08:56:38.161+07:00 [DESKTOP-0V2N8HE][D:20][T:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 35
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:01:07.026+07:00 [DESKTOP-0V2N8HE][D:22][T:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:01:07.071+07:00 [DESKTOP-0V2N8HE][D:22][T:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:01:10.978+07:00 [DESKTOP-0V2N8HE][D:22][T:34][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:01:10.984+07:00 [DESKTOP-0V2N8HE][D:22][T:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:02:27.861+07:00 [DESKTOP-0V2N8HE][D:23][T:43][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:02:27.897+07:00 [DESKTOP-0V2N8HE][D:23][T:43][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:02:31.718+07:00 [DESKTOP-0V2N8HE][D:23][T:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:02:31.724+07:00 [DESKTOP-0V2N8HE][D:23][T:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_bieu phi.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:04:13.881+07:00 [DESKTOP-0V2N8HE][D:24][T:25][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:04:13.919+07:00 [DESKTOP-0V2N8HE][D:24][T:25][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:04:18.221+07:00 [DESKTOP-0V2N8HE][D:24][T:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:04:18.230+07:00 [DESKTOP-0V2N8HE][D:24][T:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:05:24.395+07:00 [DESKTOP-0V2N8HE][D:25][T:43][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:05:24.438+07:00 [DESKTOP-0V2N8HE][D:25][T:43][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:05:28.528+07:00 [DESKTOP-0V2N8HE][D:25][T:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:05:28.533+07:00 [DESKTOP-0V2N8HE][D:25][T:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:06:01.794+07:00 [DESKTOP-0V2N8HE][D:26][T:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:06:01.832+07:00 [DESKTOP-0V2N8HE][D:26][T:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:06:04.857+07:00 [DESKTOP-0V2N8HE][D:26][T:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:06:04.862+07:00 [DESKTOP-0V2N8HE][D:26][T:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:08:31.835+07:00 [DESKTOP-0V2N8HE][D:27][T:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:08:31.880+07:00 [DESKTOP-0V2N8HE][D:27][T:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 36
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:17:14.571+07:00 [DESKTOP-0V2N8HE][D:29][T:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:17:14.615+07:00 [DESKTOP-0V2N8HE][D:29][T:13][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:17:20.993+07:00 [DESKTOP-0V2N8HE][D:29][T:17][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:17:20.999+07:00 [DESKTOP-0V2N8HE][D:29][T:17][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'c:\windows\system32\inetsrv\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:18:58.880+07:00 [DESKTOP-0V2N8HE][D:31][T:13][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:18:58.925+07:00 [DESKTOP-0V2N8HE][D:31][T:13][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:19:02.152+07:00 [DESKTOP-0V2N8HE][D:31][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:19:02.158+07:00 [DESKTOP-0V2N8HE][D:31][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:21:54.719+07:00 [DESKTOP-0V2N8HE][D:33][T:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:21:54.763+07:00 [DESKTOP-0V2N8HE][D:33][T:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:22:48.535+07:00 [DESKTOP-0V2N8HE][D:34][T:40][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:22:48.584+07:00 [DESKTOP-0V2N8HE][D:34][T:40][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:30:25.449+07:00 [DESKTOP-0V2N8HE][D:35][T:20][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:30:25.493+07:00 [DESKTOP-0V2N8HE][D:35][T:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:37:47.099+07:00 [DESKTOP-0V2N8HE][D:39][T:67][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:37:47.143+07:00 [DESKTOP-0V2N8HE][D:39][T:67][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:38:40.163+07:00 [DESKTOP-0V2N8HE][D:40][T:69][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:38:40.198+07:00 [DESKTOP-0V2N8HE][D:40][T:69][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:39:33.436+07:00 [DESKTOP-0V2N8HE][D:40][T:37][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:39:33.444+07:00 [DESKTOP-0V2N8HE][D:40][T:37][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:17.600+07:00 [DESKTOP-0V2N8HE][D:41][T:68][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:17.644+07:00 [DESKTOP-0V2N8HE][D:41][T:68][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:54.737+07:00 [DESKTOP-0V2N8HE][D:42][T:57][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:54.773+07:00 [DESKTOP-0V2N8HE][D:42][T:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:58.693+07:00 [DESKTOP-0V2N8HE][D:42][T:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:40:58.699+07:00 [DESKTOP-0V2N8HE][D:42][T:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 41
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:45:06.377+07:00 [DESKTOP-0V2N8HE][D:44][T:61][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 09:45:06.421+07:00 [DESKTOP-0V2N8HE][D:44][T:61][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\123\123_file_goc_771679.pdf'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 37
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 10:03:42.690+07:00 [DESKTOP-0V2N8HE][D:46][T:62][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 40
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 10:03:42.725+07:00 [DESKTOP-0V2N8HE][D:46][T:62][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 40
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 10:04:09.125+07:00 [DESKTOP-0V2N8HE][D:46][T:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 40
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-21 10:04:09.132+07:00 [DESKTOP-0V2N8HE][D:46][T:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\fileUpload\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 40
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

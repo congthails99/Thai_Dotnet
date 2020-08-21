@@ -1,0 +1,1190 @@
+2020-08-15 16:27:49.051+07:00 [DESKTOP-0V2N8HE][D:4][T:41][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:27:49.093+07:00 [DESKTOP-0V2N8HE][D:4][T:41][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:35:58.895+07:00 [DESKTOP-0V2N8HE][D:5][T:54][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:35:58.931+07:00 [DESKTOP-0V2N8HE][D:5][T:54][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:36:14.347+07:00 [DESKTOP-0V2N8HE][D:5][T:64][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:36:14.352+07:00 [DESKTOP-0V2N8HE][D:5][T:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:36:23.978+07:00 [DESKTOP-0V2N8HE][D:5][T:58][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:36:23.984+07:00 [DESKTOP-0V2N8HE][D:5][T:58][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:47.553+07:00 [DESKTOP-0V2N8HE][D:6][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:47.591+07:00 [DESKTOP-0V2N8HE][D:6][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:48.929+07:00 [DESKTOP-0V2N8HE][D:6][T:36][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:48.934+07:00 [DESKTOP-0V2N8HE][D:6][T:36][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:52.154+07:00 [DESKTOP-0V2N8HE][D:6][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:52.159+07:00 [DESKTOP-0V2N8HE][D:6][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:52.982+07:00 [DESKTOP-0V2N8HE][D:6][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:52.987+07:00 [DESKTOP-0V2N8HE][D:6][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.196+07:00 [DESKTOP-0V2N8HE][D:6][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.202+07:00 [DESKTOP-0V2N8HE][D:6][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.391+07:00 [DESKTOP-0V2N8HE][D:6][T:38][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.396+07:00 [DESKTOP-0V2N8HE][D:6][T:38][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.599+07:00 [DESKTOP-0V2N8HE][D:6][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:40:53.605+07:00 [DESKTOP-0V2N8HE][D:6][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:03.130+07:00 [DESKTOP-0V2N8HE][D:6][T:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:03.137+07:00 [DESKTOP-0V2N8HE][D:6][T:31][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:04.914+07:00 [DESKTOP-0V2N8HE][D:6][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:04.919+07:00 [DESKTOP-0V2N8HE][D:6][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:06.524+07:00 [DESKTOP-0V2N8HE][D:6][T:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:06.530+07:00 [DESKTOP-0V2N8HE][D:6][T:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:33.363+07:00 [DESKTOP-0V2N8HE][D:6][T:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:33.369+07:00 [DESKTOP-0V2N8HE][D:6][T:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:34.235+07:00 [DESKTOP-0V2N8HE][D:6][T:64][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:42:34.242+07:00 [DESKTOP-0V2N8HE][D:6][T:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:43:50.648+07:00 [DESKTOP-0V2N8HE][D:7][T:65][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:43:50.692+07:00 [DESKTOP-0V2N8HE][D:7][T:65][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:01.911+07:00 [DESKTOP-0V2N8HE][D:7][T:48][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:01.916+07:00 [DESKTOP-0V2N8HE][D:7][T:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:02.828+07:00 [DESKTOP-0V2N8HE][D:7][T:57][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:02.833+07:00 [DESKTOP-0V2N8HE][D:7][T:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:03.039+07:00 [DESKTOP-0V2N8HE][D:7][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:44:03.044+07:00 [DESKTOP-0V2N8HE][D:7][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:10.165+07:00 [DESKTOP-0V2N8HE][D:8][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:10.209+07:00 [DESKTOP-0V2N8HE][D:8][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:25.328+07:00 [DESKTOP-0V2N8HE][D:8][T:74][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:25.333+07:00 [DESKTOP-0V2N8HE][D:8][T:74][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:50.593+07:00 [DESKTOP-0V2N8HE][D:8][T:72][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:45:50.599+07:00 [DESKTOP-0V2N8HE][D:8][T:72][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 125
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:46:06.110+07:00 [DESKTOP-0V2N8HE][D:8][T:57][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 16:46:06.121+07:00 [DESKTOP-0V2N8HE][D:8][T:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 17:01:54.356+07:00 [DESKTOP-0V2N8HE][D:8][T:69][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 17:01:54.362+07:00 [DESKTOP-0V2N8HE][D:8][T:69][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=String+was+not+recognized+as+a+valid+DateTime.&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 47
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 21:47:23.325+07:00 [DESKTOP-0V2N8HE][D:15][T:67][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 63
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 21:47:24.698+07:00 [DESKTOP-0V2N8HE][D:15][T:67][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 63
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 21:47:35.793+07:00 [DESKTOP-0V2N8HE][D:15][T:64][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 63
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 21:47:35.799+07:00 [DESKTOP-0V2N8HE][D:15][T:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=An unexpected error has occurred&content=0
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 63
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:21:15.529+07:00 [DESKTOP-0V2N8HE][D:16][T:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 141
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:21:15.567+07:00 [DESKTOP-0V2N8HE][D:16][T:6][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.InvalidOperationException: Cannot add an entity that already exists.
+   at System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   at HNUE_THACSY.Register.dk_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 141
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:28:10.499+07:00 [DESKTOP-0V2N8HE][D:18][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hnue.Helper.Extentions.ParseDateTime(Object s, String format)
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 30
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:28:10.553+07:00 [DESKTOP-0V2N8HE][D:18][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hnue.Helper.Extentions.ParseDateTime(Object s, String format)
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 30
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:29:06.140+07:00 [DESKTOP-0V2N8HE][D:18][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:29:06.156+07:00 [DESKTOP-0V2N8HE][D:18][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:43:19.601+07:00 [DESKTOP-0V2N8HE][D:19][T:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:43:19.637+07:00 [DESKTOP-0V2N8HE][D:19][T:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.Net.WebException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'. ---> System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\HNUE_THACSY\Images\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:45:15.880+07:00 [DESKTOP-0V2N8HE][D:21][T:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:45:15.917+07:00 [DESKTOP-0V2N8HE][D:21][T:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:45:22.486+07:00 [DESKTOP-0V2N8HE][D:21][T:52][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:45:22.499+07:00 [DESKTOP-0V2N8HE][D:21][T:52][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.Net.WebException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'. ---> System.IO.FileNotFoundException: Could not find file 'D:\HNUE_THACSY\Images\HUONG DAN SU DUNG INTERNET BANKING_2'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.Net.FileWebStream..ctor(FileWebRequest request, String path, FileMode mode, FileAccess access, FileShare sharing, Int32 length, Boolean async)
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   --- End of inner exception stack trace ---
+   at System.Net.FileWebResponse..ctor(FileWebRequest request, Uri uri, FileAccess access, Boolean asyncHint)
+   at System.Net.FileWebRequest.GetResponseCallback(Object state)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadData(Uri address)
+   at HNUE_THACSY.Manager.openfile(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 32
+   at System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:47:15.066+07:00 [DESKTOP-0V2N8HE][D:22][T:42][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:1b327cf1-16a9-4e4e-8bc2-4adace2e5066
+Error Number:8152,State:10,Class:16
+2020-08-15 22:47:15.111+07:00 [DESKTOP-0V2N8HE][D:22][T:42][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=An unexpected error has occurred&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:1b327cf1-16a9-4e4e-8bc2-4adace2e5066
+Error Number:8152,State:10,Class:16
+2020-08-15 22:53:48.991+07:00 [DESKTOP-0V2N8HE][D:23][T:40][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:53:49.028+07:00 [DESKTOP-0V2N8HE][D:23][T:40][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:54:30.778+07:00 [DESKTOP-0V2N8HE][D:23][T:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:54:30.785+07:00 [DESKTOP-0V2N8HE][D:23][T:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:55:02.374+07:00 [DESKTOP-0V2N8HE][D:23][T:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:fece6d45-1f55-433d-911b-efcff36d4fe0
+Error Number:8152,State:10,Class:16
+2020-08-15 22:55:02.381+07:00 [DESKTOP-0V2N8HE][D:23][T:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:fece6d45-1f55-433d-911b-efcff36d4fe0
+Error Number:8152,State:10,Class:16
+2020-08-15 22:56:13.742+07:00 [DESKTOP-0V2N8HE][D:24][T:40][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 22:56:13.778+07:00 [DESKTOP-0V2N8HE][D:24][T:40][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=An unexpected error has occurred&content=0
+System.ArgumentOutOfRangeException: 'drpNganh' has a SelectedValue which is invalid because it does not exist in the list of items.
+Parameter name: value
+   at System.Web.UI.WebControls.ListControl.set_SelectedValue(String value)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 126
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:05:20.499+07:00 [DESKTOP-0V2N8HE][D:27][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 81
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:05:20.543+07:00 [DESKTOP-0V2N8HE][D:27][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=33&error=Databinding+methods+such+as+Eval()%2c+XPath()%2c+and+Bind()+can+only+be+used+in+the+context+of+a+databound+control.&content=0
+System.InvalidOperationException: Databinding methods such as Eval(), XPath(), and Bind() can only be used in the context of a databound control.
+   at System.Web.UI.Page.GetDataItem()
+   at System.Web.UI.TemplateControl.Eval(String expression)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control3(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 81
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:14:44.971+07:00 [DESKTOP-0V2N8HE][D:29][T:56][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:14:45.008+07:00 [DESKTOP-0V2N8HE][D:29][T:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=String+or+binary+data+would+be+truncated.%0d%0aThe+statement+has+been+terminated.&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:00.914+07:00 [DESKTOP-0V2N8HE][D:29][T:6][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:00.921+07:00 [DESKTOP-0V2N8HE][D:29][T:6][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=String+or+binary+data+would+be+truncated.%0d%0aThe+statement+has+been+terminated.&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 114
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:17.197+07:00 [DESKTOP-0V2N8HE][D:29][T:11][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:17.205+07:00 [DESKTOP-0V2N8HE][D:29][T:11][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=String+or+binary+data+would+be+truncated.%0d%0aThe+statement+has+been+terminated.&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:24.337+07:00 [DESKTOP-0V2N8HE][D:29][T:35][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:24.343+07:00 [DESKTOP-0V2N8HE][D:29][T:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=String+or+binary+data+would+be+truncated.%0d%0aThe+statement+has+been+terminated.&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:31.012+07:00 [DESKTOP-0V2N8HE][D:29][T:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:15:31.020+07:00 [DESKTOP-0V2N8HE][D:29][T:55][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=String+or+binary+data+would+be+truncated.%0d%0aThe+statement+has+been+terminated.&content=0
+System.Data.SqlClient.SqlException (0x80131904): String or binary data would be truncated.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   at System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at HNUE_THACSY.Register.laymahoso_Click(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 118
+   at System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:65aef28b-c3a1-433e-afef-ccfc73fb25c2
+Error Number:8152,State:10,Class:16
+2020-08-15 23:42:37.840+07:00 [DESKTOP-0V2N8HE][D:2][T:12][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hnue.Helper.Extentions.ParseDateTime(Object s, String format)
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 30
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:42:37.868+07:00 [DESKTOP-0V2N8HE][D:2][T:12][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=21&error=Object+reference+not+set+to+an+instance+of+an+object.&content=0
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hnue.Helper.Extentions.ParseDateTime(Object s, String format)
+   at HNUE_THACSY.Register.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Register.ascx.cs:line 30
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:44:58.840+07:00 [DESKTOP-0V2N8HE][D:2][T:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name '1'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control5(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 107
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:44:58.871+07:00 [DESKTOP-0V2N8HE][D:2][T:9][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name '1'. ---> System.Web.HttpException: DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name '1'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control5(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 107
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+2020-08-15 23:46:56.508+07:00 [DESKTOP-0V2N8HE][D:2][T:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name 'test'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control5(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 107
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2020-08-15 23:46:56.526+07:00 [DESKTOP-0V2N8HE][D:2][T:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name 'test'. ---> System.Web.HttpException: DataBinding: 'HNUE_THACSY.DataAccess.Tuyensinh' does not contain a property with the name 'test'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_hnue_thacsy_hnue_thacsy_manager_ascx.__DataBind__control5(Object sender, EventArgs e) in d:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx:line 107
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.Repeater.CreateItem(Int32 itemIndex, ListItemType itemType, Boolean dataBind, Object dataItem)
+   at System.Web.UI.WebControls.Repeater.AddDataItemsIntoItemsArray(IEnumerable dataSource, Boolean useDataSource)
+   at System.Web.UI.WebControls.Repeater.PostGetDataAction(IEnumerable dataSource)
+   at System.Web.UI.WebControls.Repeater.OnDataBinding(EventArgs e)
+   at HNUE_THACSY.Manager.Page_Load(Object sender, EventArgs e) in D:\HNUE_THACSY\DesktopModules\HNUE_THACSY\HNUE_THACSY\Manager.ascx.cs:line 18
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at DotNetNuke.Entities.Modules.PortalModuleBase.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
